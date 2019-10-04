@@ -14,6 +14,8 @@ class Application
       resp.write "You Win!"
     else
       resp.write "You Lose"
+      require.pry
+      
   end
 
   resp.finish
